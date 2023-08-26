@@ -2,32 +2,142 @@
 <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="normalize.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Gothic+A1&family=Inter');
+        @import url('https://fonts.googleapis.com/css2?family=Gothic+A1&family=Inter');
+
+    </style>
 </head>
 <header class="header">
     <img src="./img/Group 11.png" class="headerLogo">
     <div class="headerTextBlock">
-        <a href="" class="header__menuText">ГЛАВНАЯ</a>
-        <a href="" class="header__menuText">ГАЛЕРЕЯ</a>
-        <a href="" class="header__menuText">ПРОЕКТЫ</a>
-        <a href="" class="header__menuText">СЕРТИФИКАТЫ</a>
-        <a href="" class="header__menuText">КОНТАКТЫ</a> 
+        <a href="" class="header__menuText" style="text-transform: uppercase;">главная</a>
+        <a href="" class="header__menuText" style="text-transform: uppercase;">галерея</a>
+        <a href="" class="header__menuText" style="text-transform: uppercase;">проекты</a>
+        <a href="" class="header__menuText" style="text-transform: uppercase;">сертификаты</a>
+        <a href="" class="header__menuText" style="text-transform: uppercase;">контакты</a> 
     </div>
 </header>
-<section class="mainPage">
-    <div class="mainPageBlock">
-        <div class="firstBlockPage">
-            <div class="textBlockPage">
-                <h2 class="Title__page">PROJECT</h2>
-                <h2 class="Title__pageSecond">NURTOWN</h2>
+<body>
+<main class="mainPage">
+    <div class="main__PageBlock">
+        <div class="first__BlockPage">
+            <div class="text__BlockPage">
+                <h2 class="Title__page" style="text-transform: uppercase;">project</h2>
+                <h2 class="Title__pageSecond" style="text-transform: uppercase;">nurtown</h2>
             </div>    
-            <div class="arrowsBlock">
-                <img src="./img/Frame 9.png" class="arrowPic">
-                <img src="./img/Frame 8.png">   
+            <div class="arrows__Block">
+                <img src="./img/Frame 9.png" class="arrow__Pic">
+                <img src="./img/Frame 8.png" class="arrow__Pic"> 
             </div>    
+            <div class="numbers__Block">
+                <p class="Numbers">01</p>
+                <img src="./img/Line 3.png" class="Numbers__line">
+                <p class="Numbers">02</p>
+            </div>
         </div>    
         <div class="MainContainer">  
-            <img src="./img/Rectangle 6.png" class="MainPagePic">
-            <a href="" class="MainLink">ВЗГЛЯНУТЬ →</a>
+            <img src="./img/Rectangle 6.png" class="Main__PagePic">
+            <a href="" class="Main__Link" style="text-transform: uppercase;">взглянуть →</a>
         </div>    
     </div>
+</main>
+<article class="About__company">
+    <div class="About__company__BlockPic">
+        <div class="About__company__BlockPicOne">
+            <div class="About__company__BlockPicFirst">
+                <img src="./img/dom 1.png" class="About__companyPicFirst">
+                <img src="./img/okna.png" class="About__companyPicThird">
+            </div>
+        </div>
+        <div class="About__company__BlockPicTwo">
+            <img src="./img/dom 2.png" class="About__companyPicSecond">
+        </div>
+        <div class="About__company__BlockText">
+            <h2 class="About__company__Title">О компании</h2>
+            <p class="About__company__Text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+            <a href="" class="About__company__Button" style="text-transform: uppercase;">Читать →</a>
+        </div>
+    </div>
+</article>
+<section class="Main__goals">
+    <h2 class="Main__goalsTitle">Основные задачи</h2>
+    <div class="Main__goals__Block">
+        <div class="Main__goals__BlockOne">
+            <p class="Main__goalsNumber">1</p>
+            <p class="Main__goals__Text">Создание комфортных условий и повышение качества обслуживания клиентов</p>
+        </div>
+        <div class="Main__goals__BlockTwo">
+            <p class="Main__goalsNumber">2</p>
+            <p class="Main__goals__Text">Постоянно совершенствовать качество предоставляемых услуг путем обучения персонала, закупки нового оборудования и усиленной рекламы на рынке</p>
+        </div>
+    </div>
 </section>
+<nav class="Our__projects">
+    <h2 class="Our__projects__Title">Наши проекты</h2>
+    <div class="Our__projects__Pics">
+        <div class="Our__projects__Container">
+            <p class="Our__projects__Text" style="text-transform: uppercase;">досуговый центр</p>
+            <a class="Our__projects__link" href="" style="text-transform: uppercase;">подробнее →</a>
+            <img src="./img/Rectangle 12.png" class="Our__projects__PicOne">
+        </div>
+        <img src="./img/image 15.png" class="Our__projects__PicTwo">
+        <img src="./img/image 16.png"  class="Our__projects__PicThree">
+        <img src="./img/image 17.png" class="Our__projects__PicFour">
+        <img src="./img/image 18.png" class="Our__projects__PicFive">
+    </div>
+    <button class="Our__projects__Button" style="text-transform: uppercase;">все проекты →</button>
+</nav>
+<section class="connect__with__us">
+    <h2 class="connect__with__us__title">Связаться с нами</h2>
+    <div class="connect__with__us__Container">
+        <div class="connect__with__us__Block">
+            <input class="connect__with__us__Input" placeholder="Имя" type="text" required="required">
+            <input class="connect__with__us__Input" placeholder="Номер телефона*" type="text" required="required">
+            <input class="connect__with__us__Input" placeholder="E-mail*" type="text" required="required">
+            <input class="connect__with__us__Input" placeholder="Интересующай товар/услуга" type="text" required="required">
+            <input class="connect__with__us__InputFive" placeholder="Сообщение*" type="text" required="required">
+        </div>
+        <img src="./img/humanwithphone.png" class="connect__with__us__Pic">
+    </div>
+    <p class="connect__with__us__Text">Отправляя заявку Вы соглашаетесь с политикой <br> конфиденциальности</p>
+    <button class="connect__with__us__Button">Отправить →</button>
+</section>
+<footer class="footer">
+    <div class="foooter__container">
+        <img src="./img/Group 11 1.png" class="footer__logo">
+    <div class="information__Block">
+        <h3 class="infromation__Title">Информация</h3>
+        <a href="" class="information__link">Главная</a>
+        <a href="" class="information__link">Галерея</a>
+        <a href="" class="information__link">Проекты</a>
+        <a href="" class="information__link">Сертификаты</a>
+        <a href="" class="information__link">контакты</a>
+    </div>
+    <div class="contacts">
+        <h3 class="contacts__title">Контакты</h3>
+        <div class="contacts__BlockOne">
+            <img src="./img/Vector 1.png" class="contacts__PicOne">
+            <p class="contacts__text">100000, Республика  Казахстан,<br> г. Караганда, ул. Телевизионная 10</p>
+        </div>
+        <div class="contacts__BlockTwo">
+            <img src="./img/vector 2.png" class="contacts__PicTwo">
+            <p class="contacts__text">+7 (701) 77 76 811</p>
+        </div>
+        <div class="contacts__BlockThree">
+            <img src="./img/vector 3.png" class="contacts__PicThree">
+            <p class="contacts__text">Galym.sultanov@mail.ru</p>
+        </div>
+    </div>
+    <div class="social__media">
+        <h3 class="social__media__title">Социальные сети</h3>
+        <img src="./img/facebook.png" class="social__media__Facebook">
+        <img src="./img/twitter.png" class="social__media__Twitter">
+        <img src="./img/Linked In.png" class="social__media__LinkedIn">
+        <img src="./img/pininterest.png" class="social__media__Pininterest">
+    </div>
+    </div>
+    <p class="footer__copyrite">© 2019 Digital Project. Все права защищены.</p>
+</footer>
+</body>
