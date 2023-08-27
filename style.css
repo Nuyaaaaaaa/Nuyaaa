@@ -156,6 +156,8 @@
 
 .arrow__Pic {
     padding-right: 23px;
+    width: 53px;
+    height: 53px;
 }
 
 .numbers__Block {
@@ -556,6 +558,7 @@
     line-height: 20px;
     color: rgba(255, 255, 255, 1);
     padding-bottom: 25px;
+    
 }
 
 .contacts__PicOne {
@@ -575,6 +578,7 @@
     color: rgba(255, 255, 255, 1);
     padding-bottom: 25px;
     letter-spacing: 0.03em;
+    text-decoration: none;  
 }
 
 .contacts__PicTwo {
@@ -638,7 +642,181 @@
     border-right: none;
     border-left: none;
     
-   
+}
+
+.Photogallery {
+    padding-left: 135px;
+    padding-right: 135px;
+    margin-top: 127px;
+}
+
+.Photogallery__TitleOne {
+    font-family: 'TT Hoves Pro Trial';
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 64px;
+    color: rgba(189, 189, 189, 1);
+}
+
+.Photogallery__TitleTwo {
+    font-family: 'TT Hoves Pro Trial';
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 64px;
+    color: rgba(51, 51, 51, 1);
+}
+
+.Photogallery__Container {
+    padding-top: 61px;
+    display: grid;
+    grid-template-columns: 240px 240px 240px 240px  1fr;
+}
+
+.photoPic {
+    width: 210px;
+    height: 260px;
+    padding-bottom: 30px;
+}
+
+.Photogallery__Block {
+    max-width: 80%;
+}
+.Photogallery__description {
+    font-family: 'TT Hoves Pro Trial';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: rgba(51, 51, 51, 1);
+    padding-left: 20px;
+}
+
+.Photogallery__ContainerSecond {
+    display: flex;
+    padding-top: 71px;
+    align-items: center;
+}
+
+.Photogallery__BlockSecond {
+    padding-left: 27px;
+}
+
+.Ourprojects {
+    padding-left: 135px;
+    padding-right: 135px;
+    margin-top: 63px;
+}
+
+.Ourprojects__pics {
+    width: 670px;
+    height: 435px;
+}
+
+.Ourprojects__Container {
+    display: flex;
+    padding-top: 60px;
+    flex-direction: column;
+}
+
+.Ourprojects__Block {
+    display: flex;
+    padding-bottom: 87px;
+}
+
+.Ourprojects__Title {
+    font-family: 'TT Hoves Pro Trial';
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 50px;
+    color: rgba(189, 189, 189, 1);
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+
+.Ourprojects__BlockOne {
+    padding-left: 30px;
+    max-width: 24%;
+}
+
+.Ourprojects__text {
+    font-family: 'TT Hoves Pro Trial';
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 25px;
+    color: rgba(0, 0, 0, 1);
+}
+
+.Ourprojects__Link {
+    background-color: white;
+    font-family: 'TT Hoves Pro Trial';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    color:  rgba(51, 51, 51, 1);
     
-    
+}
+
+.Ourprojects__BlockTwo {
+    padding-top: 64px;
+    padding-left: 30px;
+}
+
+.certificates {
+    padding-left: 135px;
+    padding-right: 135px;
+    margin-top: 63px;
+}
+
+.certificatesPic {
+    padding-left: 78px;
+}
+
+.certificates__Container {
+    display: flex;
+    padding-top: 42px;
+}
+.Certificates__ContainerSecond {
+    padding-left: 920px;
+    display: flex;
+    align-items: center;
+    padding-top: 49px;
+}
+
+.ContactInformation {
+    padding-left: 135px;
+    padding-right: 135px;
+    margin-top: 63px;
+}
+
+.ContactInformation__Block {
+    padding-top: 34px;
+}
+
+.ContactInformation__Text {
+    font-family: 'TT Hoves Pro Trial';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    color:  rgba(51, 51, 51, 1);
+    text-decoration: none;
+}
+
+.ContactInformation__textSecond {
+    font-family: 'TT Hoves Pro Trial';
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 23px;
+    color:  rgba(51, 51, 51, 1);
+    padding-bottom: 43px;
+}
+
+.ContactInformation__TextThird {
+    font-family: 'TT Hoves Pro Trial';
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    color:  rgba(51, 51, 51, 1);
+    padding-top: 52px;
+    padding-bottom: 32px;
 }
