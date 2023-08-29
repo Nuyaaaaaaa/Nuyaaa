@@ -560,6 +560,7 @@ li:last-child {
 .foooter__container {
     display: flex;
     padding-left: 116px;
+    padding-bottom: 60px;
     
 }
 
@@ -675,7 +676,7 @@ li:last-child {
     font-size: 12px;
     line-height: 22px;
     font-family: 'OpenSans';
-    padding-top: 84px;
+    padding-top: 24px;
     text-align: center;
     padding-bottom: 24px;
     color: rgba(200, 200, 200, 0.5);
