@@ -50,13 +50,28 @@
     font-weight: 900;
     src:url(./font/SF-Pro-Display-Black.woff) format("woff"); /*900*/
 }
+
+@font-face {
+    font-family: "OpenSans";
+    font-style: normal;
+    font-weight: 400;
+    src:url(./font/OpenSans-Regular.woff) format("woff"); /*400*/
+}
+
+@font-face {
+    font-family: "GothicA1";
+    font-style: normal;
+    font-weight: 400;
+    src:url(./font/GothicA1-Regular.woff) format("woff"); /*400*/
+}
+
+
 .header {
     display: flex;
     padding-left: 135px;
     padding-right: 135px;
     padding-top: 30px;
     align-items: center;
-    margin: 0 auto;
 }
 
 .header__logo {
@@ -65,9 +80,12 @@
 }
 .headerText__block {
     display: flex;
-    gap: 60px;
-    padding-left: 330px;
-    padding-right: 330px;
+    
+}
+
+.headerText__container {
+    margin-left: 330px;
+    margin-right: 134px;
 }
 .header__menuText {
     font-family: 'TT Hoves Pro Trial';
@@ -82,20 +100,37 @@
 
 li {
     list-style-type: none;
+    margin-right: 60px;
 }
+
+li:last-child {
+  margin-right: 0px;
+}
+
+.header__menuText:hover {
+    border: 1px solid rgba(51, 51, 51, 1);
+    border-left: 0;
+    border-right:0;
+}
+
 .header__menuText:active {
     border: 1px solid rgba(51, 51, 51, 1);
     border-left: 0;
     border-right:0;
-    padding-top:4px;
-    padding-bottom:4px;
+}
+
+
+.header__menuText:focus {
+    border: 1px solid rgba(51, 51, 51, 1);
+    border-left: 0;
+    border-right:0;
 }
 
 .mainPage {
     padding-top: 33px;
     padding-left: 135px;
     padding-right: 135px;
-    margin: 0 auto;
+    
     
 }
 
@@ -127,8 +162,7 @@ li {
     height: 829px;
 }
 .mainPage__blockText{
-    padding-right: 69px;
-   
+    margin-right: 69px;
 }
 
 .mainPage__blockFirst{
@@ -137,12 +171,13 @@ li {
 
 .mainPage__containerSecond {
     position: relative;
-    width: 30%;
+    
 }
 
 .mainPage__link{
     position: absolute;
-    top: 91%;
+    left: 0;
+    bottom: 0;
     background-color: white;
     font-family: 'TT Hoves Pro Trial';
     font-weight: 400;
@@ -156,6 +191,8 @@ li {
     text-decoration:none;
     color:  rgba(51, 51, 51, 1);
     text-transform: uppercase;
+    margin-left: -1px;
+
 }
 
 .mainPage__arrowBlock {
@@ -188,9 +225,9 @@ li {
 }
 
 .about-company {
-    padding-left: 235px;
-    padding-right: 235px;
-    padding-top: 150px;
+    padding-left: 135px;
+    padding-right: 135px;
+    padding-top: 120px;
 }
 
 .about-company__PicFirst{
@@ -214,6 +251,8 @@ li {
 .about-company__blockPicOne {
     display: flex;
     flex-direction: column;
+    padding-left: 100px;
+    
 }
 
 .about-company__container{
@@ -249,7 +288,7 @@ li {
 
 .about-company__blockText {
     padding-left: 30px;
-    max-width: 26%;
+    max-width: 32%;
 }
 
 .About-company__button {
@@ -282,7 +321,7 @@ li {
 .main-goals__blockOne {
     display: flex;
     align-items: center;
-    max-width: 25%;
+    max-width: 35%;
     
 }
 .main-goals__container {
@@ -310,7 +349,7 @@ li {
     padding-left: 187px;
     display: flex;
     align-items: center;
-    max-width: 40%;
+    max-width: 50%;
 }
 
 .our-projects {
@@ -329,7 +368,7 @@ li {
 }
 
 .our-projects__container {
-    max-width: 80%;
+    max-width: 100%;
     display: flex;
     flex-wrap: wrap;
     padding-top: 60px;
@@ -389,7 +428,7 @@ li {
 
 .our-projects__link {
     position: absolute;
-    font-family: 'Gothic A1', sans-serif;
+    font-family: 'GothicA1';
     font-weight: 400;
     font-size: 12px;
     line-height: 12px;
@@ -415,8 +454,7 @@ li {
     line-height: 12px;
     letter-spacing: 2px;
     font-family: 'TT Hoves Pro Trial';
-    margin-left: 969px;
-    margin-right: 136px;
+    margin-left: 968px;
     margin-top: 30px;
     padding-left: 39px;
     padding-top: 24px;
@@ -508,8 +546,7 @@ li {
 }
 
 .footer {
-    padding-left: 116px;
-    padding-right: 116px;
+    
     margin-top: 120px;
     background-color: rgba(44, 44, 44, 1);
     padding-top: 58px;
@@ -522,6 +559,7 @@ li {
 
 .foooter__container {
     display: flex;
+    padding-left: 116px;
     
 }
 
@@ -607,7 +645,7 @@ li {
 }
 
 .footer__social-Media {
-    padding-left: 340px;
+    padding-left: 70px;
     
 }
 .footer__social-MediaTitle {
@@ -636,7 +674,7 @@ li {
     font-weight: 400;
     font-size: 12px;
     line-height: 22px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'OpenSans';
     padding-top: 84px;
     text-align: center;
     padding-bottom: 24px;
