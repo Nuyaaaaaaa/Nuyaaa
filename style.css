@@ -74,6 +74,7 @@
     padding-right: 135px;
     padding-top: 30px;
     align-items: center;
+    
 }
 
 .header__logo {
@@ -82,11 +83,10 @@
 }
 .headerText__block {
     display: flex;
-    
 }
 
 .headerText__container {
-    margin-left: 330px;
+    margin-left: auto;
     margin-right: 134px;
 }
 .header__menuText {
@@ -121,6 +121,35 @@ li:last-child {
     border-right:0;
 }
 
+.header__main_active {
+    border: 1px solid rgba(51, 51, 51, 1);
+    border-left: 0;
+    border-right:0;
+}
+
+.header__gallery_active {
+    border: 1px solid rgba(51, 51, 51, 1);
+    border-left: 0;
+    border-right:0;
+}
+
+.header__projects_active {
+    border: 1px solid rgba(51, 51, 51, 1);
+    border-left: 0;
+    border-right:0;
+}
+
+.header__certificates_active {
+    border: 1px solid rgba(51, 51, 51, 1);
+    border-left: 0;
+    border-right:0;
+}
+
+.header__contacts_active {
+    border: 1px solid rgba(51, 51, 51, 1);
+    border-left: 0;
+    border-right:0;
+}
 
 .header__menuText:focus {
     border: 1px solid rgba(51, 51, 51, 1);
@@ -132,11 +161,9 @@ li:last-child {
 
 /* мэйн начало */
 .mainPage { /* отступы у секции */
-    padding-top: 33px;
+    margin-top: 33px;
     padding-left: 135px;
     padding-right: 135px;
-    
-    
 }
 
 .mainPage__title {
@@ -159,15 +186,11 @@ li:last-child {
 
 .mainPage__container {
     display: flex;
-   
+    justify-content: space-between;
 }
 
-.mainPage__pic {
-    width: 770px;
-    height: 829px;
-}
-.mainPage__blockText{
-    margin-right: 69px;
+.mainPage__blockBlock {
+    display: flex;
 }
 
 .mainPage__blockFirst{
@@ -176,7 +199,7 @@ li:last-child {
 
 .mainPage__containerSecond {
     position: relative;
-    
+    margin-bottom: 120px;
 }
 
 .mainPage__link{
@@ -234,10 +257,11 @@ li:last-child {
 /* артикул насчет компании начало */
 
 .about-company { /* отступы у секции */
-    padding-left: 135px;
-    padding-right: 135px;
-    padding-top: 120px;
+    padding-top: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
+
 
 .about-company__PicFirst{
     width: 270px;
@@ -260,8 +284,6 @@ li:last-child {
 .about-company__blockPicOne {
     display: flex;
     flex-direction: column;
-    padding-left: 100px;
-    
 }
 
 .about-company__container{
@@ -270,11 +292,13 @@ li:last-child {
 
 .about-company__blockOne {
     padding-right: 30px;
+    margin-bottom: 120px;
 }
 
 .about-company__blockPicTwo {
     padding-top: 30px;
     display: flex;
+    padding-right: 30px;
 }
 
 .About-company__title {
@@ -296,8 +320,8 @@ li:last-child {
 }
 
 .about-company__blockText {
-    padding-left: 30px;
-    max-width: 32%;
+    
+    max-width: 38%;
 }
 
 .About-company__button {
@@ -315,11 +339,7 @@ li:last-child {
 /* артикул насчет компании конец */
 
 /* секция основные задачи начало */
-.main-goals { /* отступы у секции */
-    padding-left: 135px;
-    padding-right: 135px;
-    margin-top: 120px;
-}
+
 
 .main-goals__title {
     font-family: 'TT Hoves Pro Trial';
@@ -338,6 +358,7 @@ li:last-child {
 .main-goals__container {
     display: flex;
     padding-top: 60px;
+    margin-bottom: 120px;
     
 }
 .main-goals__text {
@@ -365,11 +386,7 @@ li:last-child {
 /* секция основные задачи конец */
 
 /* нав наши проекты начало */
-.our-projects { /* отступы у секции */
-    padding-left: 135px;
-    padding-right: 135px;
-    margin-top: 120px;
-}
+
 
 .our-projects__title {
     font-family: 'TT Hoves Pro Trial';
@@ -474,6 +491,7 @@ li:last-child {
     padding-right: 40px;
     padding-bottom: 23px;
     text-transform: uppercase;
+    margin-bottom: 120px;
 }
 
 /* нав наши проекты конец */
@@ -489,11 +507,7 @@ li:last-child {
     padding-bottom: 22px;
 }
 
-.connect-with-us {
-    padding-left: 135px;
-    padding-right: 135px;
-    margin-top: 120px;
-}
+
 
 .connect-with-us__block {
     display: flex;
@@ -560,6 +574,8 @@ li:last-child {
     padding-top: 24px;
     padding-right: 49px;
     padding-bottom: 23px;
+    margin-bottom: 120px;
+
 }
 
 /* секция связаться с нами конец */
@@ -567,7 +583,6 @@ li:last-child {
 /* футер начало */
 .footer { /* отступы у секции */
     
-    margin-top: 120px;
     background-color: rgba(44, 44, 44, 1);
     padding-top: 58px;
 }
@@ -760,6 +775,7 @@ li:last-child {
     display: flex;
     padding-top: 71px;
     align-items: center;
+    margin-bottom: 131px;
 }
 
 .photo-gallery__textNumbers {
