@@ -164,6 +164,7 @@ li:last-child {
     margin-top: 33px;
     padding-left: 135px;
     padding-right: 135px;
+    
 }
 
 .mainPage__title {
@@ -187,6 +188,7 @@ li:last-child {
 .mainPage__container {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 120px;
 }
 
 .mainPage__blockBlock {
@@ -194,12 +196,12 @@ li:last-child {
 }
 
 .mainPage__blockFirst{
-     padding-top: 336px;
+    padding-top: 336px;
+    margin-right: 20px;
 }
 
 .mainPage__containerSecond {
     position: relative;
-    margin-bottom: 120px;
 }
 
 .mainPage__link{
@@ -252,6 +254,12 @@ li:last-child {
     padding-right: 26px;
 }
 
+.mainPage__pic {
+    max-width: 100%;
+}
+
+
+
 /* мэйн конец */
 
 /* артикул насчет компании начало */
@@ -260,6 +268,7 @@ li:last-child {
     padding-top: 30px;
     padding-left: 100px;
     padding-right: 100px;
+    
 }
 
 
@@ -288,11 +297,12 @@ li:last-child {
 
 .about-company__container{
     display: flex;
+    margin-bottom: 120px;
 }
 
 .about-company__blockOne {
     padding-right: 30px;
-    margin-bottom: 120px;
+    
 }
 
 .about-company__blockPicTwo {
@@ -308,6 +318,7 @@ li:last-child {
     line-height: 64px;
     color: rgba(189, 189, 189, 1);
     padding-bottom: 20px;
+    white-space: nowrap;
 }
 
 .About-company__text {
@@ -317,10 +328,10 @@ li:last-child {
     line-height: 25px;
     color: rgba(0, 0, 0, 1);
     padding-bottom: 44px;
+    
 }
 
 .about-company__blockText {
-    
     max-width: 38%;
 }
 
@@ -347,6 +358,7 @@ li:last-child {
     font-size: 64px;
     line-height: 64px;
     color: rgba(189, 189, 189, 1);
+    padding-bottom: 60px;
 }
 
 .main-goals__blockOne {
@@ -357,8 +369,8 @@ li:last-child {
 }
 .main-goals__container {
     display: flex;
-    padding-top: 60px;
     margin-bottom: 120px;
+    margin-right: auto;
     
 }
 .main-goals__text {
@@ -374,11 +386,10 @@ li:last-child {
     font-weight: 900;
     font-size: 200px;
     padding-right: 30px;
-    
 }
 
 .main-goals__blockTwo {
-    padding-left: 187px;
+    margin-left: auto;
     display: flex;
     align-items: center;
     max-width: 50%;
@@ -394,6 +405,7 @@ li:last-child {
     font-size: 64px;
     line-height: 64px;
     color: rgba(189, 189, 189, 1);
+    padding-bottom: 60px;
 
 }
 
@@ -401,7 +413,8 @@ li:last-child {
     max-width: 100%;
     display: flex;
     flex-wrap: wrap;
-    padding-top: 60px;
+    margin-bottom:30px;
+    justify-content: flex-end;
 }
 
 .our-projects__picOne {
@@ -484,14 +497,14 @@ li:last-child {
     line-height: 12px;
     letter-spacing: 2px;
     font-family: 'TT Hoves Pro Trial';
-    margin-left: 968px;
-    margin-top: 30px;
     padding-left: 39px;
     padding-top: 24px;
     padding-right: 40px;
     padding-bottom: 23px;
     text-transform: uppercase;
     margin-bottom: 120px;
+    margin-top: 30px;
+    
 }
 
 /* нав наши проекты конец */
@@ -524,6 +537,10 @@ li:last-child {
     padding-right: 30px;
     padding-bottom: 14px;
     padding-left: 24px;
+}
+
+::placeholder{
+    color: orange;
 }
 
 .connect-with-us__inputFive {
